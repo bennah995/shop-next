@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import pool from "@/app/lib/db";
 
 export default async function LeadsPage() {
