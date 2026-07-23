@@ -31,7 +31,7 @@ export default async function ProductsPage() {
 
   return (
     <main className="p-6">
-      <h1 className="text-2xl font-bold mb-4">All Products</h1>
+      <h1 className="text-2xl font-bold mb-4">Mctaba Shop — Great Deals, every day</h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {products.map((p) => (
           <Link key={p.id} href={`/products/${p.slug}`}>
